@@ -1,0 +1,8 @@
+export const LOGIN__FAILURE = 'LOGIN__FAILURE';
+export const LOGIN__SUCCESS = 'LOGIN__SUCCESS';
+
+export const AUTHENTICATE = 'AUTHENTICATE';
+export const LOGOUT = 'LOGOUT';
+
+export const FLASH_MESSAGE__CREATE = 'FLASH_MESSAGE__CREATE';
+export const FLASH_MESSAGE__DELETE = 'FLASH_MESSAGE__DELETE';
