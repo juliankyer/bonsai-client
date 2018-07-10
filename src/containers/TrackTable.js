@@ -1,7 +1,4 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 
 import { DataTable, Tile, Button } from 'bonsai-components-react';
 import './App.css';
@@ -30,8 +27,8 @@ export class App extends Component {
           rows={[
             {
               id: 'a',
-              song: 'Ghost',
-              artist: 'Jauz',
+              song: 'Hello There',
+              artist: 'Dillon Francis',
             },
             {
               id: 'b',
@@ -40,8 +37,8 @@ export class App extends Component {
             },
             {
               id: 'c',
-              song: 'You & Me',
-              artist: 'Disclosure',
+              song: 'Hot Steppa',
+              artist: 'Bad Royale',
             },
           ]}
           headers={[
